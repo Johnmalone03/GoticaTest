@@ -7,23 +7,50 @@ body {
     background-color: rgb(47, 47, 47);
 }
 
-/* HEADER - ADD LINKS */
+/* HEADER */
 
 header{
     display: flex;
-    width: 100%;
+    width: 100% ;
     background-color: black;
     align-items: center;
     justify-content: space-between;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.cart{
-    cursor: pointer;
 
-    
-    width: 2.5%;
+
+
+.search-bar{
+    justify-content: center;
 }
+
+
+.search-bar input{
+    height:  35px;
+    width: 200px;   
+    border-radius: 15px;
+    padding: 0px 5px;
+    
+}
+
+.cart{
+    display: flex;
+    margin: 0px 50px;
+}
+
+.profile{
+    border-radius: 110%;
+    margin: 0px 10px;
+    border: 2px white solid;
+}
+
+.cart img{
+    cursor: pointer; 
+    width: 50px;
+}
+
+
 
 /*menu links*/
 
@@ -69,7 +96,7 @@ a{
 
 
 
-/* note - buscar con mejor calidad */
+/* img de portada */
 .cover{
     width: 70%;
     height:50%;
@@ -246,9 +273,10 @@ footer .footer__socialMedia-container a:hover {
         min-width: 50%;
     }
     .cart{
-    
-        width: 6%;
+        display: flex;
+        margin: 0px 50px;
     }
+    
 
     .cover{
         width: 100%;
@@ -260,6 +288,17 @@ footer .footer__socialMedia-container a:hover {
         display: flex;
         box-shadow: 5px 5px 10px rgba(245, 245, 245, 0.5);
     }
+
+    .search-bar{
+        display: none;
+    }
+
+    .menu-links{
+        display: none;
+    }
+
+
+
    
 
     
@@ -273,8 +312,8 @@ footer .footer__socialMedia-container a:hover {
         min-width: 100%;
     }
     .cart{
-    
-        width: 10%;
+        display: flex;
+        margin: 0px 10px;
     }
     .cover{
         width: 100%;
@@ -286,6 +325,23 @@ footer .footer__socialMedia-container a:hover {
         display: flex;
         box-shadow: 5px 5px 10px rgba(245, 245, 245, 0.5);
     }
+    .search-bar{
+        display: none;
+    }
+
+    .featured-product-item {
+        border-radius: 5px;
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(109, 108, 108);
+        box-sizing: border-box;
+        border: 2px solid rgb(0, 0, 0);
+        
+    }
+
+   
+   
+
   
 
 }
