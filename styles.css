@@ -100,12 +100,13 @@ a{
 
 
 
-/* img de portada */
-.cover{
+/* img de portada *//*test bootstrap*/
+
+.carousel{
     width: 70%;
     height:50%;
     object-fit: cover;
-    object-position:  50% 10%;
+    object-position:  50% 80%;
     margin: 30px auto;
     border-radius: 10px;
     display: flex;
