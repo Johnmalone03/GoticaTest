@@ -18,6 +18,10 @@ header{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.logo-m{
+    display: none;
+}
+
 
 
 
@@ -297,6 +301,8 @@ footer .footer__socialMedia-container a:hover {
         display: none;
     }
 
+    
+
 
 
    
@@ -338,9 +344,25 @@ footer .footer__socialMedia-container a:hover {
         border: 2px solid rgb(0, 0, 0);
         
     }
+    
+    .logo{
+        display:none
+    }
 
    
+   .logo-m{
+       display: flex;
+       margin-left: 10px;
+       outline: blue 1px solid;
+       
+       
+   }
+
+
    
+   .logo-m a img{
+       width: 100px;
+   }
 
   
 
