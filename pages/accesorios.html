@@ -5,165 +5,228 @@
         <title>Gotica</title>
         <link rel="shortcut icon" href="../media/g.ico" type="image/x-icon">
         <link href="../styles.css" rel="stylesheet" />
+        <!--Bootstrap CDN-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
          
     </head>
-    <body>
+    <body class="bg-dark">
+
+        <!--footer-->
 
         <header>
+            <div class="logo-m">
+                <a href="../index.html"><img src="../media/logo-mobile.png" alt="logo"></a>
+            </div>
+
             <div class="logo">
                 <a href="../index.html"><img src="../media/LOGO.jpg" alt="logo"></a>
             </div>
 
-           
+            <div class="search-bar">
+                <input type="search"  placeholder="Buscar">
+                <button></button>
+            </div>
+
 
             <div class="cart">
-
+                <img src="../media/navbarprofile/propic.jpg" alt="profile" class="profile" >
                 <img src="../media/shopping-bag.svg" alt="shop" >
-
             </div>
-
-            
         </header>
 
-        
+        <div class="menu-links">
+            <ul>
+                <li><a href="../pages/aros.html">Aros</a></li>
+                <li><a href="../pages/anillos.html">Anillos</a></li>
+                <li><a href="../pages/brazaletes.html">Brazaletes</a></li>
+                <li><a href="../pages/accesorios.html">Accesorios</a></li>
+            </ul>
+        </div>
 
-        
+        <!--section title-->
 
-        <main>
+        <div class="sec-title">
+            <h1>Accesorios</h1>
+        </div>
 
-            <section class="featured-products">
-                <div class="featured-product-item">
-                    <div
-                        style="background-image: url('../media/anillos/berlina.jpg');"
-                        class="featured-product-item-image"
-                    ></div>
-                    <p class="title">
-                        Berlina 
-                    </p>
-                    <p class="description">
-                        
-                            Anillo de acero quirúrgico regulable
-                    </p>
-                    <p class="price">
-                        $3.300
-    
-                    </p>
-                    <button>
-                        Comprar
-                    </button>
+        <!--grid categories-->
+
+        <main class="acc">
+
+            <div class="container d-flex justify-content-center mt-50 mb-50">
+                <div class="row">
+                    <div class="col-md-4 mt-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img-actions"> <img src="../media/productos/acc/acc.jpg" class="card-img img-fluid" width="96" height="350" alt="accesorios"> </div>
+                            </div>
+                            <div class="card-body bg-light text-center">
+                                <div class="mb-2">
+                                    <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true"> Porta encendedor</a> </h6> <a href="#" class="text-muted" data-abc="true">Accesorios</a>
+                                </div>
+                                <h3 class="mb-0 font-weight-semibold">$2500</h3>
+                                <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Anadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img-actions"> <img src="../media/productos/acc/acc.jpg" class="card-img img-fluid" width="96" height="350" alt="accesorios"> </div>
+                            </div>
+                            <div class="card-body bg-light text-center">
+                                <div class="mb-2">
+                                    <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true"> Porta encendedor</a> </h6> <a href="#" class="text-muted" data-abc="true">Accesorios</a>
+                                </div>
+                                <h3 class="mb-0 font-weight-semibold">$2500</h3>
+                                <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Anadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img-actions"> <img src="../media/productos/acc/acc.jpg" class="card-img img-fluid" width="96" height="350" alt="accesorios"> </div>
+                            </div>
+                            <div class="card-body bg-light text-center">
+                                <div class="mb-2">
+                                    <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true"> Porta encendedor</a> </h6> <a href="#" class="text-muted" data-abc="true">Accesorios</a>
+                                </div>
+                                <h3 class="mb-0 font-weight-semibold">$2500</h3>
+                                <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Anadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions"> <img src="../media/productos/acc/acc.jpg" class="card-img img-fluid" width="96" height="350" alt="accesorios"> </div>
+                                </div>
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true"> Porta encendedor</a> </h6> <a href="#" class="text-muted" data-abc="true">Accesorios</a>
+                                    </div>
+                                    <h3 class="mb-0 font-weight-semibold">$2500</h3>
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Anadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-4 mt-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img-actions"> <img src="../media/productos/acc/acc.jpg" class="card-img img-fluid" width="96" height="350" alt="accesorios"> </div>
+                            </div>
+                            <div class="card-body bg-light text-center">
+                                <div class="mb-2">
+                                    <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true"> Porta encendedor</a> </h6> <a href="#" class="text-muted" data-abc="true">Accesorios</a>
+                                </div>
+                                <h3 class="mb-0 font-weight-semibold">$2500</h3>
+                                <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Anadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img-actions"> <img src="../media/productos/acc/acc.jpg" class="card-img img-fluid" width="96" height="350" alt="accesorios"> </div>
+                            </div>
+                            <div class="card-body bg-light text-center">
+                                <div class="mb-2">
+                                    <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true"> Porta encendedor</a> </h6> <a href="#" class="text-muted" data-abc="true">Accesorios</a>
+                                </div>
+                                <h3 class="mb-0 font-weight-semibold">$2500</h3>
+                                <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Anadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="featured-product-item">
-                    <div
-                        style="background-image: url('../media/ring-full\ moon.jpg');"
-                        class="featured-product-item-image"
-                    ></div>
-                    <p class="title">
-                        Anillo Black Full Moon
-                    </p>
-                    <p class="description">
-                        
-                        Anillo de acero quirúrgico y resina negra regulable 
-                    </p>
-                    <p class="price">
-                        $4.500
-                    </p>
-                    <button>
-                        Comprar
-                    </button>
-                </div>
-                <div class="featured-product-item">
-                    <div
-                        style="background-image: url('../media/anillos/sultana.jpg');"
-                        class="featured-product-item-image"
-                    ></div>
-                    <p class="title">
-                        Anillo Sultana
-                    </p>
-                    <p class="description">
-                        Anillo de acero quirúrgico regulable
-                    </p>
-                    <p class="price">
-                        $5.500
-                    </p>
-                    <button>
-                        Comprar
-                    </button>
-                </div>
-                <div class="featured-product-item">
-                    <div
-                        style="background-image: url('../media/anillos/genesis.jpg');"
-                        class="featured-product-item-image"
-                    ></div>
-                    <p class="title">
-                        Anillo genesis
-                    </p>
-                    <p class="description">
-                        Anillo de acero quirúrgico regulable
-                    </p>
-                    <p class="price">
-                        $3.800
-                    </p>
-                    <button>
-                        Comprar
-                    </button>
-                </div>
-                <div class="featured-product-item">
-                    <div
-                        style="background-image: url('../media/anillos/scorpio.png');"
-                        class="featured-product-item-image"
-                    ></div>
-                    <p class="title">
-                        Anillo Scorpio
-                    </p>
-                    <p class="description">
-                        Anillo de acero quirúrgico regulable
-                    </p>
-                    <p class="price">
-                        $4.800
-    
-                    </p>
-                    <button>
-                        Comprar
-                    </button>
-                </div>
-                <div class="featured-product-item">
-                    <div
-                        style="background-image: url('../media/anillos/stone.jpg');"
-                        class="featured-product-item-image"
-                    ></div>
-                    <p class="title">
-                        Anillo Stone
-                    </p>
-                    <p class="description">
-                        Anillo de acero 
-                    </p>
-                    <p class="price">
-                        $2.500
-                    </p>
-                    <button>
-                        Comprar
-                    </button>
-               
-                    
-            </section>
-            
+            </div>     
         </main>
+
+        <!--footer -->
         
-
-
-
-
-        <footer>
-
-            <div class="footer__socialMedia-container">
-                <a href="https://www.instagram.com/Goticabsas/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/G%C3%B3tica"><i class="fa-brands fa-facebook"></i></a>
+        <footer class = "py-5 footer-b " style="background-color: #000000;">
+            <div class = "container" >
+                <div class = "row text-white g-4">
+                    <div class = "col-md-6 col-lg-3">
+                        <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Gotica</a>
+                        <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                    </div>
+    
+                    <div class = "col-md-6 col-lg-3">
+                        <h5 class = "fw-light">Links</h5>
+                        <ul class = "list-unstyled">
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> Home
+                                </a>
+                            </li>
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> Collection
+                                </a>
+                            </li>
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> Blogs
+                                </a>
+                            </li>
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> About Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class = "col-md-6 col-lg-3">
+                        <h5 class = "fw-light mb-3">Contacto</h5>
+                        <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                            <span class = "me-3">
+                                <i class = "fas fa-map-marked-alt"></i>
+                            </span>
+                            <span class = "fw-light">
+                                Buenos Aires - San miguel
+                            </span>
+                        </div>
+                        <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                            <span class = "me-3">
+                                <i class = "fas fa-envelope"></i>
+                            </span>
+                            <span class = "fw-light">
+                                goticabsas@gmail.com
+                            </span>
+                        </div>
+                        <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                            <span class = "me-3">
+                                <i class = "fas fa-phone-alt"></i>
+                            </span>
+                            <span class = "fw-light">
+                                 11-5645-1327
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class = "col-md-6 col-lg-3">
+                        <h5 class = "fw-light mb-3">Seguinos</h5>
+                        <div>
+                            <ul class = "list-unstyled d-flex">
+                                <li>
+                                    <a href = "https://www.instagram.com/Goticabsas/" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                        <i class = "fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </footer>
 
-
+<!--Bootstrap scrips-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </body>
 </html>
