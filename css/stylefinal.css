@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #2f2f2f; }
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+  header .button {
+    display: none; }
+  header .menu-mobile {
+    display: none; }
+  header .color2 {
+    background-color: #3a3a3a; }
+  header .logo-m {
+    display: none; }
+  header .search-bar {
+    justify-content: center; }
+  header .search-bar input {
+    height: 35px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 0px 5px; }
+  header .cart {
+    display: flex;
+    margin: 0px 50px; }
+  header .profile {
+    border-radius: 110%;
+    margin: 0px 10px;
+    border: 2px white solid; }
+  header .cart img {
+    cursor: pointer;
+    width: 50px; }

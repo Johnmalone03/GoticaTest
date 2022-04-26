@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    width: 100% ;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+
+.button{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.color2{
+    background-color: rgb(58, 58, 58);
+}
+
+.logo-m{
+    display: none;
+}
+
+
+
+
+.search-bar{
+    justify-content: center;
+}
+
+
+.search-bar input{
+    height:  35px;
+    width: 200px;   
+    border-radius: 15px;
+    padding: 0px 5px;
+    
+}
+
+.cart{
+    display: flex;
+    margin: 0px 50px;
+}
+
+.profile{
+    border-radius: 110%;
+    margin: 0px 10px;
+    border: 2px white solid;
+}
+
+.cart img{
+    cursor: pointer; 
+    width: 50px;
+}
+
+}
