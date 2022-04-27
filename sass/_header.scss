@@ -56,3 +56,40 @@ header{
 }
 
 }
+
+/*menu links*/ 
+
+.menu-links{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    justify-content: center;
+   
+
+
+.menu-links ul{
+    display: flex; 
+}
+
+.menu-links ul li {
+    list-style: none;
+    margin-left: 5px;
+    transition: all 0.5s;
+    padding: 10px;
+    
+}
+
+.menu-links ul li a:hover{
+    color: rgb(161, 161, 161);
+}
+
+
+
+.menu-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+}
