@@ -45,17 +45,6 @@ $colortest2:white;
     
 }
 
-
-/*test de animacion - zoom in */
-
-
-/*.featured-product-item:hover{
-    transform: scale(1.5);
-    
-
-}
-*/
-
 .featured-product-item-image {
     height: 200px;
     background-size: cover;
@@ -169,12 +158,12 @@ footer a:hover{
 }
 
 /* media queries */
+
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;
     }
 }
-
 
 /*tablet*/
 
@@ -226,12 +215,17 @@ footer a:hover{
     
 }
 
+
+
+
 /*phone*/
 
 @media (max-width: 800px) {
     .category-item {
         min-width: 100%;
     }
+
+
     .cart{
         display: flex;
         margin: 0px 10px;
