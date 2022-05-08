@@ -1,3 +1,11 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(47, 47, 47);
+}
+
+
 /* HEADER */
 
 header{
@@ -17,16 +25,9 @@ header{
     display: none;
 }
 
-.color2{
-    background-color: rgb(58, 58, 58);
-}
-
 .logo-m{
     display: none;
 }
-
-
-
 
 .search-bar{
     justify-content: center;
@@ -56,45 +57,63 @@ header{
     cursor: pointer; 
     width: 50px;
 }
- 
-@import "media.scss";
 
 }
 
-/*menu links*/ 
+/*menu links*/
 
-.menu-links{
+.menu-links {
     display: flex;
     width: 100%;
     height: 5%;
     background-color: white;
-    justify-content: center;
-    @media (max-width: 1000px) {
-            display: none;  
-    }      
-}
-
-.menu-links ul{
-    display: flex; 
-}
-
-
-.menu-links ul li {
+    justify-content: center; 
+  
+  ul {
+    display: flex; }
+  
+  ul li {
     list-style: none;
     margin-left: 5px;
     transition: all 0.5s;
-    padding: 10px;
+    padding: 10px; }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.3rem; }
     
-}
+        }
+  
+  ul li a {
+    color: #a1a1a1;
+    &:hover {
+        color: #a1a1a1
 
-.menu-links ul li a:hover{
-    color: rgb(161, 161, 161);
-}
+        
+ }
+  
+  
+ }
+
+ /*button*/
+ nav-link {
+    color: white;
+    &:hover {
+        color: #a1a1a1;
+    }
+   }
 
 
 
-.menu-links ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.3rem;
-}
+
+
+
+
+
+
+
+
+
+
+

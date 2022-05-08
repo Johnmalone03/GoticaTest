@@ -12,18 +12,16 @@
     .category-item {
         min-width: 50%;
     }
+
+    header{
     .cart{
         display: flex;
         margin: 0px 0px;
     }
-    
 
-    .search-bar{
-        display: none;
-    }
-
-    .menu-links{
-        display: none;
+    .logo-m{
+        display: flex;
+        margin-left: 10px;
     }
 
     .button{
@@ -31,15 +29,10 @@
         margin-left: 20px;
         
     }
-
-    .menu-mobile{
-        display: block;
     
-    }
 
-    .logo-m{
-        display: flex;
-        margin-left: 10px;
+    .search-bar{
+        display: none;
     }
 
     .logo-m a img{
@@ -53,6 +46,23 @@
     .profile{
         display: none;
     }
+
+    }
+
+
+    .menu-links{
+        display: none;
+    }
+
+    
+
+    .menu-mobile{
+        display: block;
+    
+    }
+
+
+
     
 }
 
@@ -62,10 +72,52 @@
     .category-item {
         min-width: 100%;
     }
-    .cart{
-        display: flex;
-        margin: 0px 10px;
+
+
+    header{
+
+        .cart{
+            display: flex;
+            margin: 0px 10px;
+        }
+
+        .search-bar{
+            display: none;
+        }
+    
+        .button{
+            display:block;
+            margin-left: 10px;
+            
+        }
+    
+        .profile{
+            display: none;
+        }
+
+        .logo{
+            display:none
+        }
+    
+       
+       .logo-m{
+           display: flex;
+           margin-left: 10px;
+       }
+    
+       .logo-m a img{
+           width: 100px;
+       }
+
     }
+
+    .menu-mobile{
+        display: block;
+    
+    }
+
+
+    
 
     .carousel{
         width: 100%;
@@ -78,24 +130,7 @@
     }
 
 
-    .search-bar{
-        display: none;
-    }
-
-    .button{
-        display:block;
-        margin-left: 10px;
-        
-    }
-
-    .profile{
-        display: none;
-    }
-
-    .menu-mobile{
-        display: block;
     
-    }
 
     .featured-product-item {
         border-radius: 5px;
@@ -107,24 +142,7 @@
         
     }
     
-    .logo{
-        display:none
-    }
-
-   
-   .logo-m{
-       display: flex;
-       margin-left: 10px;
-       
-       
-       
-   }
-
-
-   
-   .logo-m a img{
-       width: 100px;
-   }
+    
 
   
 
