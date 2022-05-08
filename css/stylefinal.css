@@ -36,6 +36,9 @@ header {
     cursor: pointer;
     width: 50px; }
 
+.menu-mobile {
+  display: none; }
+
 /*menu links*/
 .menu-links {
   display: flex;
@@ -61,9 +64,9 @@ ul li a {
     color: #a1a1a1; }
 
 /*button*/
-nav-link {
+.nav-link {
   color: white; }
-  nav-link:hover {
+  .nav-link:hover {
     color: #a1a1a1; }
 
 /* img de portada */
