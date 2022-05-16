@@ -14,6 +14,8 @@ header {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
   header .button {
     display: none; }
+  header .navbar-toggler {
+    background-color: #535353; }
   header .menu-mobile {
     display: none; }
   header .logo-m {
@@ -174,6 +176,9 @@ button {
   margin-top: 40px; }
 
 /* footer */
+.py-5 {
+  background-color: #000000; }
+
 .footer-b {
   margin-top: 50px; }
 
