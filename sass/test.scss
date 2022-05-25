@@ -1,5 +1,5 @@
 
-
+@import "variables.scss";
 @import "header.scss";
 
 
@@ -7,16 +7,6 @@
 
 /* img de portada */
 
-.carousel{
-    width: 100%;
-    height:70%;
-    object-fit:cover;
-    object-position:  50% 80%;
-    margin: 0px 5px 0px auto;
-    border-radius: 10px;
-    display: flex;
-    
-}
 
 
 /*Store items test*/
@@ -35,7 +25,7 @@
     text-align: center;
     background-color: rgb(109, 108, 108);
     box-sizing: border-box;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid $defaultcolor;
     transition: all 0.2s;
     
 }
@@ -45,8 +35,12 @@
     height: 200px;
     background-size: cover;
     background-position: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+    box-shadow: 5px 5px 10px $defaultcolor;
 }
+
+
+
+
 
 .featured-product-item >.title {
     font-size: 20px;
@@ -54,9 +48,6 @@
     font-weight: bold;
 }
 
-.featured-product-item > .description {
-    color: rgb(255, 255, 255);
-}
 
 .featured-product-item > .price {
     font-style: italic;
@@ -88,7 +79,7 @@ button {
     flex-grow: 1;
     flex-basis: 0;
     min-width: 33.33%;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid $defaultcolor;
     box-sizing: border-box;
     height: 300px;
     background-size: cover;
@@ -121,7 +112,7 @@ button {
 .category-item-inner > div {
     padding: 5px 10px;
     text-decoration: none;
-    background: black;
+    background: $defaultcolor;
     color: white;
     border-radius: 5px;
     font-size: 30px;
@@ -137,7 +128,7 @@ button {
 /* footer */
 
 .py-5{
-    background-color: #000000;
+    background-color: $defaultcolor;
 }
 
 .footer-b{

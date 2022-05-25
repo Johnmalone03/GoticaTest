@@ -42,7 +42,7 @@ header{
     height:  35px;
     width: 200px;   
     border-radius: 15px;
-    padding: 0px 5px;
+    padding: 0px 10px;
     
 }
 
@@ -78,7 +78,9 @@ header{
     justify-content: center; 
   
   ul {
-    display: flex; }
+    display: flex; 
+    margin: 0px;
+}
   
   ul li {
     list-style: none;
